@@ -23,7 +23,7 @@ class _ScheduleMainState extends State<ScheduleMain> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('SigSchedule'),
+        title: Text('PlanPlan'),
       ),
       body: ScheduleList(bottomIndex: bottomIndex, setBottomIndex: setBottomIndex),
         floatingActionButton: (bottomIndex != 1) ? FloatingActionButton(
